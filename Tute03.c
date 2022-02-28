@@ -13,6 +13,14 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+   int x,y;
+
+  printf("Enter the number :");
+  scanf("%d",&x);
+
+  y = x * (x + 1) / 2;
+   printf("Sum of numbers 1 to %d is : %d ", x,y);
+  
   
   return 0;
 }
